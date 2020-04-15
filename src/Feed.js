@@ -8,7 +8,7 @@ export class Feed extends Component {
       <View style={styles.center}>
         <Text style={styles.title}> textInComponent </Text>
         <TouchableOpacity>
-          <Button onPress={() => this.props.navigation.navigate('')} />
+          <Button onPress={() => {}} />
           <Text style={styles.androidButtonText}>Go to FeedItem</Text>
         </TouchableOpacity>
       </View>
